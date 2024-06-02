@@ -97,7 +97,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .img-container {
