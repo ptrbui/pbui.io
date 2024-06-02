@@ -43,19 +43,18 @@ a:hover {
 .profilepic {
     width: 150px;
     border-radius: 40%;
-    /* filter: grayscale(100%); */
 }
 
 @media (min-width: 768px) {
     .fixed-posi {
-        /* width: 50%;
-            margin-left: 50%;
-            min-height:100%; */
         position: fixed;
     }
 }
 
 @media only screen and (max-width: 900px) {
+    .top-part{
+        align-items: center;
+    }
     .allstuff {
         padding-top: 0px !important;
     }
@@ -69,12 +68,13 @@ a:hover {
         border-radius: 40%;
         padding-top: 0px !important;
         padding-bottom: 0px !important;
-        /* filter: grayscale(100%); */
     }
 
     .menur {
         padding-top: 18px !important;
     }
+
+
 
 }
 
@@ -113,6 +113,26 @@ a:hover {
 
 .button-container {
     margin-top: auto;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+}
+
+.contact-link img.icon {
+    width: 14px; /* Adjust the size as needed */
+    height: 14px; /* Adjust the size as needed */
+    margin-right: 9px;
+    vertical-align: -2px;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin-top: 30px;
 }
 
 
