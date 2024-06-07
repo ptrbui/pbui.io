@@ -45,54 +45,6 @@ a:hover {
     border-radius: 40%;
 }
 
-@media (min-width: 768px) {
-    .fixed-posi {
-        position: fixed;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-    .top-part{
-        align-items: center;
-    }
-    .allstuff {
-        padding-top: 0px !important;
-    }
-
-    .allstuffp {
-        padding-top: 0px !important;
-    }
-
-    .profilepic {
-        width: 90px;
-        border-radius: 40%;
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-    }
-
-    .menur {
-        padding-top: 18px !important;
-    }
-
-
-
-}
-
-.card {
-    width: 100%;
-    min-height: 400px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-@media (max-width: 768px) {
-    .card {
-        height: auto;
-    }
-}
-
 .card-body {
     display: flex;
     flex-direction: column;
@@ -133,10 +85,96 @@ a:hover {
     margin-top: 30px;
 }
 
-
-/*
-.thisauthor {
-    color: #111;
-    text-decoration: underline;
+.card {
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-*/
+
+@media (min-width: 768px) {
+    .fixed-posi {
+        position: fixed;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .top-part{
+        align-items: center;
+    }
+    .allstuff {
+        padding-top: 0px !important;
+    }
+
+    .allstuffp {
+        padding-top: 0px !important;
+    }
+
+    .profilepic {
+        width: 90px;
+        border-radius: 35%;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .menur {
+        padding-top: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        text-align: center;
+    }
+
+    .card {
+        min-height: 220px;
+        height: auto;
+        width: 95%;
+        margin: 2px auto;
+    }
+
+    .contact-link {
+        margin: 0px 7px;
+    }
+
+    .contact-link a {
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-link a span {
+        display: none;
+    }
+
+    .contact-link img.icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap; /* Prevent wrapping */
+    }
+
+    .profile-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profilepic {
+        width: 90px;
+        border-radius: 35%;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .recs {
+        text-align: center;
+    }
+}
