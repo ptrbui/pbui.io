@@ -54,6 +54,20 @@ a:hover {
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 20px;
+    flex: 1 1 auto;
+}
+
+.card {
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-text {
+    font-size: smaller;
 }
 
 .img-container {
@@ -87,15 +101,6 @@ a:hover {
 
 .social-links {
     margin-top: 30px;
-}
-
-.card {
-    width: 100%;
-    min-height: 400px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 @media (min-width: 768px) {
